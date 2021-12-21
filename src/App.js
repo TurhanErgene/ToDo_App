@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>To Do App With React {inputText}</h1>
+        <h1>To Do App With React</h1>
       </header>
       <Form
         todos={todos}
