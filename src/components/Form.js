@@ -13,7 +13,6 @@ const Form = ({setInputText, inputText, todos, setTodos}) => {
     setTodos([
       ...todos, {text: inputText, completed: false, id:Math.random() * 1000 } 
     ]);
-    console.log("xx");
     setInputText("");
   }
 
