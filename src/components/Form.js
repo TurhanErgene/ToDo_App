@@ -21,8 +21,6 @@ const Form = ({setInputText, inputText, todos, setTodos, setStatus}) => {
     }
   }
 
-
-
   return (
     <div>
       <form>
